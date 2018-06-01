@@ -1,0 +1,15 @@
+{
+  "name": "gravity-tools",
+  "version": "1.0.0",
+  "description": "Tools for Gravity Witnesses and Users",
+  "main": "index.js",
+  "scripts": {
+    "withdraw_vesting": "node withdraw_vesting.js"
+  },
+  "author": "Kenneth Bennett",
+  "license": "MIT",
+  "dependencies": {
+    "gravity-protocoljs": "^1.0.2",
+    "gravity-protocoljs-ws": "^1.0.3"
+  }
+}
